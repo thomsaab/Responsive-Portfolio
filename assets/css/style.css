@@ -1,0 +1,273 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-image: url("../images/concrete-texture.png");
+    margin: 0 auto;
+    border-bottom-color: 10px solid #4aaaa5;
+}
+
+
+
+header {
+    background: #ffffff;
+    border: 3px solid #cccccc;
+}
+
+header h1 {
+
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #4aaaa5;
+    width: 160px;
+    height: 50px;
+    margin: 0 auto;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+    padding-left: 15px;
+}
+nav ul {
+    margin: 0 auto;
+    display: inline-block;
+    float: right;
+}
+nav ul li {
+    background: #ffffff;
+    color: black;
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+nav ul li a {
+    color: gray;
+    text-decoration: none;
+}
+
+.container {
+    width: 1024px;
+}
+
+/* col1 and col2 used for index.html */
+.col1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 650px;
+    float: left;
+    padding: 10px auto;
+    margin: 20px;
+    height: 300px;
+    text-align: left;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+#aboutme {
+    margin: 0 auto;
+    text-align: left;
+    padding: 10px auto;
+    padding-right: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    
+}
+
+.col2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 270px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+
+/* col3 and col4 used for portfolio.html */
+.col3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 650px;
+    float: left;
+    padding: 10px auto;
+    margin: 20px;
+    height: 600px;
+    text-align: left;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+
+.col4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 270px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+/* col5 and col6 used for contact.html */
+.col5 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 650px;
+    float: left;
+    padding: 10px auto;
+    margin: 20px;
+    height: 400px;
+    text-align: left;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+
+.col6 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background: #ffffff;
+    width: 270px;
+    float: left;
+    margin: 20px;
+    height: 200px;
+    text-align: center;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
+}
+
+
+div img {
+    float: left;
+    margin: 0 auto;
+    margin-right: 10px;
+}
+
+#img1 {
+    margin: 0 auto;
+    padding-left: 10px;
+}
+#img2 {
+    margin: 0 auto;
+    padding-left: 10px;
+}
+#img3 {
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+
+#port1 {
+    padding-left: 10px;
+}
+#port2 {
+    padding-left: 10px;   
+}
+#port3{
+    padding-left: 10px;
+}
+#port4 {
+    padding-left: 10px;
+}
+#port5 {
+    padding-left: 10px;
+}
+
+footer{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 10px;
+    height: 50px;
+    background: #666666;
+    text-align: center;
+    color: #ebebeb;
+    padding-top: 15px;
+    border-top: 10px solid #4aaaa5;
+    clear: both;
+}
+.namebox {
+    margin: 0 auto;
+    width: 620px;
+    height: 20px;
+    border: 1px solid #cccccc;
+}
+.emailbox {
+    margin: 0 auto;
+    width: 620px;
+    height: 20px;
+    border: 1px solid #cccccc;
+}
+.messagebox {
+    margin: 0 auto;
+    width: 620px;
+    height: 140px;
+    border: 1px solid #cccccc;
+}
+.submitbox {
+    background: #4aaaa5;
+    width: 100px;
+    height: 40px;
+    margin-left: 15px;
+}
+#name {
+    margin: 0 auto;
+    padding-left: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#email {
+    margin: 0 auto;
+    padding-left: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#message {
+    margin: 0 auto;
+    padding-left: 15px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
+#submit {
+    color:  #ffffff;
+    text-align: center;
+    padding-top:10px;
+
+
+}
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media only screen and (max-width: 768px) {
+    body {
+        background-image: url("../images/concrete-texture.png");
+        border-bottom-color: 10px solid #4aaaa5;
+    }
+    .container {
+        width: 600px;
+        overflow: auto;
+    }
+    .col1 {
+        width: 100%;
+    
+      }
+      .col2 {
+        width: 100%;
+   
+      }
+      .col3 {
+        width: 100%;
+   
+      }
+      .col4 {
+        width: 100%;
+    
+      }
+  }
